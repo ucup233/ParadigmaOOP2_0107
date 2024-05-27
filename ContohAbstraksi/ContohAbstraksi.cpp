@@ -14,3 +14,10 @@ public:
 		cout << "y = " << y << endl;
 	}
 };
+
+int main() {
+	AbstraksiClass ac;
+	ac.setXY("Yogyakarta", "Malang");
+	ac.display();
+	return 0;
+}
